@@ -3,5 +3,33 @@ textarea {
 }
 
 .email{
-    cursor: pointer;;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 170px 220px 520px 180px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.email p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+
+
+.read{
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.189);
+    background-color: rgba(140, 140, 140, 0.039);
+    border-collapse: collapse;
+    
+}
+
+.unread{
+    font-weight: 700;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.189);
+    border-left: 1px solid rgba(128, 128, 128, 0.048); border-right: 1px solid rgba(128, 128, 128, 0.048);
+    border-collapse: collapse;
 }
