@@ -5,7 +5,7 @@ textarea {
 .email{
     cursor: pointer;
     display: grid;
-    grid-template-columns: 170px 220px 520px 180px;
+    grid-template-columns: 210px 160px 525px 200px;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
@@ -15,6 +15,7 @@ textarea {
     overflow: hidden;
     text-overflow: ellipsis;
     margin-bottom: 0;
+    padding-left: 10px;
 }
 
 
